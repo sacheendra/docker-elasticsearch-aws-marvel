@@ -1,5 +1,5 @@
 # Pull base image
-FROM elasticsearch:2.2
+FROM elasticsearch:2.3
 
 # Install AWS plugin
 RUN /usr/share/elasticsearch/bin/plugin install cloud-aws
